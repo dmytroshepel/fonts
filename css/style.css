@@ -5,17 +5,30 @@ body {
 .container {
     width: 1200px;
     margin: auto;
-    padding: 0 90px 120px 120px;
+    padding: 0 120px 90px 120px;
     background-color: #ffffff;
 }
 .head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
+  text-align: justify;
+  
+}
+.head::after {
+    content: " ";
+    display: inline-block;
+    width: 100%;
+     
 }
 .title {
     margin-top: 70px;
 }
+.head__right {
+    display: inline-block;
+}
+.head__left {
+    display: inline-block;
+}
+
+
 .lang {
     font-family: Tourney;
     font-size: 22px;
@@ -30,10 +43,15 @@ nav {
     font-family: Staatliches;
     font-size: 22px;
     line-height: 28px;
+    display: inline-block;
 }
 .menu__item1{
     list-style: none;
     display: inline-block;
+}
+.menu__item1:hover{
+    font-family: Tourney;
+   
 }
 .menu__item2::before {
     content: "/";
@@ -55,10 +73,11 @@ nav {
     color: #000000;
 
 }
-.logo {
-    width: 240px;
-
+.menu__item2 a:hover{
+    font-family: Tourney;
+   
 }
+
 
 
 
