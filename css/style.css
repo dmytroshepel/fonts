@@ -1,0 +1,117 @@
+
+body {
+    background-color: #e2e2e2;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 0 90px 120px 120px;
+    background-color: #ffffff;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.title {
+    margin-top: 70px;
+}
+.lang {
+    font-family: Tourney;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+    display: inline-block;
+}
+nav {
+    display: inline-block;
+}
+.menu {  
+    font-family: Staatliches;
+    font-size: 22px;
+    line-height: 28px;
+}
+.menu__item1{
+    list-style: none;
+    display: inline-block;
+}
+.menu__item2::before {
+    content: "/";
+    color: #000000;
+    margin: 0 10px;
+
+}
+.menu__item1 a {
+    text-decoration: none;
+    color: #000000;
+
+}
+.menu__item2 {
+    list-style: none;
+    display: inline-block;
+}
+.menu__item2 a {
+    text-decoration: none;
+    color: #000000;
+
+}
+.logo {
+    width: 240px;
+
+}
+
+
+
+
+h2 {
+    font-family: Francois One;
+    font-size: 36px;
+    line-height: 48px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.chapter {
+    font-family: Farro;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    vertical-align: 75%;
+    margin-left: 10px;
+
+}
+.text {
+    font-family: PT Sans;
+    font-size: 28px;
+    line-height: 48px;
+
+}
+.underline {
+    text-decoration: underline;
+}
+.oblique {
+    font-style: oblique;
+}
+
+
+
+.components::before {
+    content: "+ components. ";
+    font-weight: 700;
+}
+.JSX::before {
+    content: "+ JSX. ";
+    font-weight: 700;
+}
+.props::before {
+    content: "+ props. ";
+    font-weight: 700;
+}
+.state::before {
+    content: "+ state. ";
+    font-weight: 700;
+}
+.bg-gray {
+    background-color: #e2e2e2;
+}
