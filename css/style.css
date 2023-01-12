@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=Island+Moments&family=PT+Sans:ital,wght@0,400;1,400;1,700&family=Poor+Story&family=Staatliches&family=Tourney:wght@600&display=swap'); 
+
 
 body {
     background-color: #e2e2e2;
@@ -28,7 +30,8 @@ body {
     display: inline-block;
 }
 
-
+/* Tourney 600, Staatliches,Tourney,Francois One,Farro;PT Sans + italic;
+*/
 .lang {
     font-family: Tourney;
     font-size: 22px;
